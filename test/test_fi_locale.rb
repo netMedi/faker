@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/test_helper.rb')
 
 class TesetEnLocale < Test::Unit::TestCase
   def setup
-    Faker::Config.locale = 'fi-FI'
+    Faker::Config.locale = 'fi'
   end
 
   def teardown
